@@ -21,6 +21,7 @@ object AppStrings {
 
     const val BTN_CALCULATE = "Calcular Traçado"
 
+    const val BTN_CLEAR = "Limpar Campos"
     const val RESULT_TITLE = "Gabarito de Marcação:"
     const val RESULT_TRACE_DISTANCE = "Medida do Traçado (Centro à Lateral):"
     const val RESULT_TOTAL_OPENING = "Abertura Total do Triângulo:"

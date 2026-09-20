@@ -31,6 +31,10 @@ class CalculatorViewModel : ViewModel() {
         _uiState.update { it.copy(errorMessage = null) }
     }
 
+    fun onClearFields() {
+        _uiState.value = CalculatorUiState()
+    }
+
     fun calculate() {
         val currentState = _uiState.value
 

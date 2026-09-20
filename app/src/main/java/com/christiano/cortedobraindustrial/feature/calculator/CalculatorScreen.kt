@@ -128,6 +128,19 @@ fun CalculatorScreen(viewModel: CalculatorViewModel) {
                 Text(text = AppStrings.BTN_CALCULATE, fontSize = 18.sp, fontWeight = FontWeight.Bold)
             }
 
+            Button(
+                onClick = {
+                    focusManager.clearFocus()
+                    viewModel.onClearFields()
+                },
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(56.dp),
+                shape = MaterialTheme.shapes.medium
+            ) {
+                Text(text = AppStrings.BTN_CLEAR, fontSize = 18.sp, fontWeight = FontWeight.Bold)
+            }
+
             Spacer(modifier = Modifier.height(16.dp))
 
             val hasValidResults = uiState.traceDistance != null
