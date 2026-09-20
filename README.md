@@ -26,6 +26,3 @@ O projeto foi desenvolvido nativamente para Android, utilizando as práticas mod
 * **Gestão de Estado:** Utilização de `StateFlow` e `UiState` para uma interface previsível e reativa (ex: `CalculatorUiState`).
 * **UI:** Construído com [Jetpack Compose].
 
-## 📝 Licença
-
-Distribuído sob a licença MIT. Consulte o ficheiro `LICENSE` para mais informações.
