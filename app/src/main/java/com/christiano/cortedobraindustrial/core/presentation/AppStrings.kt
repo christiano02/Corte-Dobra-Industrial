@@ -8,7 +8,7 @@ package com.christiano.cortedobraindustrial.core.presentation
  */
 object AppStrings {
     const val APP_NAME = "Corte & Dobra Industrial"
-    const val TOP_BAR_TITLE = "Traçado de Eletrocalhas"
+    const val TOP_BAR_TITLE = "Calculadora Industrial"
 
     // Instrução focada na precisão
     const val INSTRUCTION_TEXT = "Todas as medidas devem ser em milímetros (mm)"
